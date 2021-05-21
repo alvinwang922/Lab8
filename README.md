@@ -21,3 +21,7 @@ Answer: If we run our puppeteer tests with the field “headless” set to true,
 
 Answer: Since updating the url directly does not work, we would have to actually click the settings image to navigate and start from the settings page before every test case. This can be done using `await page.click('header > img')`, assuming you start from the home page.
 
+
+Screenshot:
+
+![Screenshot Proof](screenshot.png)
